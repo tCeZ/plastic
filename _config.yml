@@ -23,6 +23,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:		           'Washed Up Alums'
 description:	       'Fantasy Football Recaps'
 author:              'bigTeddies'
+hide_post_share:     true
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
