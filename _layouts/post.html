@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include open-embed.html %}
+
 <h1>
   {{ page.title }}
 </h1>
@@ -23,4 +25,3 @@ layout: default
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
 {% endif %}
-{% include open-embed.html %}
